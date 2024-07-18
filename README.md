@@ -10,6 +10,7 @@ The main methods implemented in the class are:
 - `DNAContamination(s, l)` builds a DNAContamination object; it takes in input the contaminant s and the contamination threshold l (the contaminant set C is initially empty);
 - `addContaminant(c)` adds contaminant c to the set C and saves the degree of contamination of s by c, it shuld run in in time O(((len(s)+len(c))^2) + log m), where m is the number of total contaminants that would be added;
 - `getContaminants(k)` returns the k contaminants with larger degree of contamination among the added contaminants, it should run in time O(k log m).
+
 It was also implemented the function `test(s,k,l)` that starting from some DNA strings, returns the indices of the k contaminants in the dataset with larger degree of contamination in the DNA sequence, assuming l as contamination threshold, in increasing order. 
 It was necessary for the proposed solution to be very fast and efficient.
 The proposed solution involved the use of a **Suffix Tree**, for more details about the implemented functions refer to `DNAContamination`.
