@@ -19,7 +19,7 @@ The proposed solution involved the use of a **Suffix Tree**, for more details ab
 
 # Social Network Sentiment Analysis 
 <div align='center'>
-  <img src="https://www.google.com/imgres?q=social%20network&imgurl=https%3A%2F%2Fwww.studiosamo.it%2Fwp-content%2Fuploads%2F2020%2F12%2FSocial-Network-Analysis-1-1024x694.jpg&imgrefurl=https%3A%2F%2Fwww.studiosamo.it%2Fla-social-network-analysis-come-analisi-delle-conversazioni%2F&docid=imsrESNzAcSCzM&tbnid=tTpx2ULEhQgCLM&vet=12ahUKEwi3kbWOrbGHAxU98LsIHRieCQoQM3oFCIABEAA..i&w=1024&h=694&hcb=2&ved=2ahUKEwi3kbWOrbGHAxU98LsIHRieCQoQM3oFCIABEAA" alt="GoT" style="width:80%; max-width:800px;">
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unicusano.it%2Fblog%2Fdidattica%2Fcorsi%2Fstruttura-del-dna%2F&psig=AOvVaw3dln_75lh3KOYtXzJk1S24&ust=1721418243762000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCFrf-ssYcDFQAAAAAdAAAAABAJ" alt="Social Network" style="width:80%; max-width:800px;">
 </div>
 ## Overview
 A very famous Social Network is designing a tool for forecasting the results of US presidential elections. This tool assumes that the vote of voter v is influenced by the relationships between v and other nodes in the network: if v has many friends voting for Democrats or many enemies voting for Republicans, then it is more likely that v votes for Democrats. Starting from these assumptions it was neccesary to develop two different types this tool.
