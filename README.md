@@ -12,7 +12,7 @@ The main methods implemented in the class are:
 - `getContaminants(k)` returns the k contaminants with larger degree of contamination among the added contaminants, it should run in time O(k log m).
 It was also implemented the function `test(s,k,l)` that starting from some DNA strings, returns the indices of the k contaminants in the dataset with larger degree of contamination in the DNA sequence, assuming l as contamination threshold, in increasing order. 
 It was necessary for the proposed solution to be very fast and efficient.
-The proposed solution involved the use of a **Suffix Tree**, for more details about the implemented functions refer to `DNAContamination`
+The proposed solution involved the use of a **Suffix Tree**, for more details about the implemented functions refer to `DNAContamination`.
 
 # Social Network Sentiment Analysis 
 ## Overview
@@ -36,4 +36,9 @@ Republicans, respectively.
     - a Python dictionary E whose keys represent pairs of voters that have a friendness relationship on Facebook, and whose values represent the friendship level that Facebook assigned to the corresponding pair, and returns two Python sets, D and R, corresponding to voters for Democrats and Republicans, respectively.
 
     The idea of the **max-flow (min-cut) algorithm** is applied to create a division into the two sets in order to minimize the level of friendship among the two groups, to maximize that within each group and to maximize the total likelihood of the returned groups (given by the sum over all voters v of the likelihood that v votes for the candidate of the group at which it is assigned). After creating a network flow suitably to solve the problem, while there is a path from the source to the destination, the value of forward edges is decreased considering the bottleneck of the path found and the value of backword edges is increased considering the bottleneck of the path found. When there are no more paths from source to destination the two sets are created considering that the voters reachable from the super Source must stay in the same set of super source (Democrats) and the other in the same set of super target (Republicans).
+
+For more details about the implemented functions refer to `SocialNetworkSentimentAnalysis`.
+
+#Feedback
+For any feedback, questions or inquiries, please contact the project maintainers listed in the Contributors section.
 
