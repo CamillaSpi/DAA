@@ -1,7 +1,4 @@
 # DNA Contamination 
-<div align='center'>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fit%2Ffoto%2Fil-dna-del-cromosoma-blu-e-la-luce-dello-sfarfallio-gradualmente-incandescente-sono-gm1297146235-390354856&psig=AOvVaw3dln_75lh3KOYtXzJk1S24&ust=1721418243762000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCFrf-ssYcDFQAAAAAdAAAAABAE" alt="DNA" style="width:80%; max-width:800px;">
-</div>
 ## Overview
 Often the various laboratory processes used to isolate, purify, clone, copy, maintain, probe, or sequence a DNA string will cause unwanted DNA to become inserted into the string of interest or mixed together with a collection of strings. Contamination of protein in the laboratory can also be a serious problem. During cloning, contamination is often caused by a fragment (substring) of a vector (DNA string) used to incorporate the desired DNA in a host organism, or the contamination is from the DNA of the host itself (for example bacteria or yeast). Contamination can also come from very small amounts of undesired foreign DNA that gets physically mixed into the desired DNA and then amplified by PCR (the polymerase chain reaction) used to make copies of the desired DNA.
 Contamination is an extremely serious problem, and there have been embarrassing occurrences of large-scale DNA sequencing efforts where the use of highly contaminated clone libraries resulted in a huge amount of wasted sequencing. These embarrassments might have been avoided if the sequences were examined early for signs of likely contaminants, before large-scale analysis was performed or results published.
@@ -18,9 +15,6 @@ It was necessary for the proposed solution to be very fast and efficient.
 The proposed solution involved the use of a **Suffix Tree**, for more details about the implemented functions refer to `DNAContamination`
 
 # Social Network Sentiment Analysis 
-<div align='center'>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.unicusano.it%2Fblog%2Fdidattica%2Fcorsi%2Fstruttura-del-dna%2F&psig=AOvVaw3dln_75lh3KOYtXzJk1S24&ust=1721418243762000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCFrf-ssYcDFQAAAAAdAAAAABAJ" alt="Social Network" style="width:80%; max-width:800px;">
-</div>
 ## Overview
 A very famous Social Network is designing a tool for forecasting the results of US presidential elections. This tool assumes that the vote of voter v is influenced by the relationships between v and other nodes in the network: if v has many friends voting for Democrats or many enemies voting for Republicans, then it is more likely that v votes for Democrats. Starting from these assumptions it was neccesary to develop two different types this tool.
 - First Tool Version: The amount of data owned by the Social Network allows for powerful sentiment analysis that provides a very precise estimate of the level of enmity evw ≥ 0 for each pair of voters v and w that are friends on this social network. The Social Network's tool groups voters for Democrats and Republicans so that the level of enmity within each group is low, and the level of enmity among the two groups is as large as possible. Hence, the level of enmity in a set of voters is computed as the sum of enmities among each pair of these voters that are friends on the Social Network.
